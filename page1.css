@@ -109,7 +109,7 @@ h3{
 
 .title{
     height: 600px;
-    width: 800px;
+    width: 460px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,6 +124,7 @@ h3{
     background-color: rgba(227, 109, 133, 0.689);
     padding: 10px;
     font-weight: lighter;
+    text-decoration: none;
 }
 
 #z1{
@@ -144,6 +145,36 @@ h3{
 
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 20px;
+}
+
+.recipe{
+  display: flex;
+  flex-direction: column;
+  
+
+  gap: 60px;
+}
+
+#section1{
+    background-color: rgba(201, 187, 169, 0.189);
+    
+}
+    
+#section2{
+    background-color: rgba(201, 187, 169, 0.189);
+    
+}
+
+#section3{
+    background-color: rgba(201, 187, 169, 0.189);
+    
+}
 footer{
     width: 100%;
     background-color: rgba(227, 109, 133, 0.527);
