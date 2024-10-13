@@ -1,15 +1,16 @@
 .header{
-    background-color: rgb(212, 167, 71);
-    color: white;
-    height: 100%;
-    width: 100%;
-    display: flex;
     
-    
-    
-}
+    color: rgb(227, 109, 133);
 
-.h1{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+}
+    
+    
+
+.header h1{
+    letter-spacing: 5px;
    
 
 }
@@ -27,4 +28,66 @@
     width: 100%; 
     height: 100%;
     font-family: sans-serif;
+}
+
+.container{
+    
+  
+  
+
+}
+
+.card{
+    display: flex;
+  
+  margin: 20px 100px;
+}
+
+.photo{
+    width: 320px;
+  height: auto;
+  
+}
+
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(227, 109, 133);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  
+    
+}
+
+.a{
+    font-size: 20px;
+}
+.text{
+    text-align: center;
+    line-height: 35px;
+    
+    padding: 50px;
+    font-size: 20px;
+    color: rgba(22, 32, 49, 0.97);
+}
+
+.line{
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.162);
+}
+
+.box{
+    display: flex;
+   
+
+}
+
+img{
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
 }
