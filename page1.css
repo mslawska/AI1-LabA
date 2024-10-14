@@ -1,6 +1,7 @@
 .header{
     
     color: rgb(227, 109, 133);
+<<<<<<< HEAD
 
     display: flex;
     justify-content: center;
@@ -9,6 +10,16 @@
     
     
 
+=======
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+}
+    
+    
+
+>>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 .header h1{
     letter-spacing: 5px;
     font-family: 'Montserrat', sans-serif;
@@ -27,6 +38,10 @@
     
   flex: 1;
   
+<<<<<<< HEAD
+=======
+
+>>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 }
 
 .card{
@@ -36,8 +51,13 @@
 
 .photo{
     width: 320px;
+<<<<<<< HEAD
     height: auto;
     
+=======
+  height: auto;
+  
+>>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 }
 
 .button{
@@ -66,6 +86,7 @@
 }
 
 .line{
+<<<<<<< HEAD
     
     height: 1px;
     background-color: #ccc; 
@@ -73,6 +94,11 @@
     width: 80%; 
     max-width: 600px; 
     
+=======
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.162);
+>>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 }
 
 .box{
@@ -152,6 +178,7 @@ a:hover{
 .recipe{
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   margin: 20px;
   gap: 60px;
 }
@@ -162,15 +189,30 @@ section{
 #section1{
     background-color: rgba(201, 187, 169, 0.189);
     padding: 20px;
+=======
+  
+
+  gap: 60px;
+}
+
+#section1{
+    background-color: rgba(201, 187, 169, 0.189);
+    
+>>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 }
     
 #section2{
     background-color: rgba(201, 187, 169, 0.189);
+<<<<<<< HEAD
     padding: 20px;
+=======
+    
+>>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 }
 
 #section3{
     background-color: rgba(201, 187, 169, 0.189);
+<<<<<<< HEAD
     padding: 20px;
 }
 .name{
@@ -179,6 +221,9 @@ section{
 .recipe p{
     color:rgb(227, 109, 133);
    
+=======
+    
+>>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 }
 footer{
     width: 100%;
