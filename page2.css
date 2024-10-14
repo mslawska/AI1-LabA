@@ -1,0 +1,203 @@
+.header{
+    background-color: rgba(243, 168, 69, 0.726);
+    color: white;
+    display: flex;
+    justify-content:first baseline;
+   
+    
+}
+
+.header h1{
+    margin: 20px;
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+    font-family: 'Courgette', cursive;
+}
+   
+.card{
+    display: flex;
+    margin: 20px 100px;
+}
+
+.photo{
+    width: 320px;
+    height: 450px;
+    border-radius: 20px;
+    order: 2;
+  
+}
+.text{
+    order: 1;
+}
+
+.text h2{
+    text-align: center;
+    background-color: rgba(243, 168, 69, 0.24);
+    color: rgb(92, 78, 51);
+}
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: rgb(92, 78, 51);
+  text-decoration: none;
+  background-color: rgba(243, 168, 69, 0.24);
+  
+    
+}
+
+.a{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.text{
+    
+    line-height: 35px;
+    
+    padding: 50px;
+    font-size: 20px;
+    color: rgba(22, 32, 49, 0.97);
+}
+
+.line{
+    
+    height: 1px;
+    background-color: #ccc; 
+    margin: 20px auto;
+    width: 80%; 
+    max-width: 600px; 
+    
+}
+
+.box{
+    
+   margin: 0 20px;
+   text-align: center;
+
+}
+
+img{
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    
+}
+
+h3{
+    text-align: center;
+    color: rgb(92, 78, 51);
+    text-shadow: 2px 2px 5px rgba(221, 168, 69, 0.61);
+    font-family: 'Courgette', cursive;
+
+}
+
+.box-photo {
+    display: flex; 
+    flex-direction: column; /* Ustawienie w kolumnie */
+    align-items: center; /* Wyśrodkowanie w poziomie */
+    margin-top: 20px; 
+    width: 100%;
+    gap: 20px; /* Odstęp między elementami */
+}
+
+.title {
+    height: 600px; /* Ustalona wysokość */
+    width: 460px; /* Ustalona szerokość */
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie tekstu w poziomie */
+    align-items: flex-end; /* Ustawienie tekstu na dole */
+    padding: 50px; /* Odstęp wewnętrzny */
+    background-size: cover;
+    margin: 10px 0; /* Odstęp między elementami */
+    text-decoration: none;
+    border-radius: 30px; /* Zmniejszenie promienia zaokrąglenia */
+}
+
+
+.title h3{
+    color: rgb(255, 255, 255);
+    background-color: rgba(189, 116, 21, 0.815);
+    padding: 10px;
+    text-decoration: none;
+}
+
+#z1{
+    background-image: url("jp3.jpg");
+    
+
+}
+
+#z2{
+    background-image: url("jp8.jpg");
+    
+
+}
+
+#z3{
+    background-image: url("jp6.jpg");
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    
+}
+
+.recipe{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 60px;
+}
+
+
+#section1{
+    background-color: rgba(201, 187, 169, 0.189);
+    padding: 20px;
+}
+    
+#section2{
+    background-color: rgba(201, 187, 169, 0.189);
+    padding: 20px;
+}
+
+#section3{
+    background-color: rgba(201, 187, 169, 0.189);
+    padding: 20px;
+}
+.name{
+    font-weight: bolder;
+    letter-spacing: 8px;
+    font-family: 'Courgette', cursive;
+    color: rgb(92, 78, 51);
+}
+.recipe p{
+    color:rgb(227, 109, 133);
+    
+}
+footer{
+    width: 100%;
+    background-color: rgba(227, 109, 133, 0.527);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Courgette', cursive;
+    margin-top: 30px;
+    
+
+}
+@media only screen and (max-width: 1030px){
+    .card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box-photo{
+        flex-wrap: wrap;
+    }
+}
