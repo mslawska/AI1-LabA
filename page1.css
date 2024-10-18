@@ -1,30 +1,13 @@
 .header{
     
     color: rgb(227, 109, 133);
-<<<<<<< HEAD
-
-
     display: flex;
     justify-content: center;
     box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
 }
     
-    
 
-<<<<<<< HEAD
 
-=======
-=======
-
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
-}
-    
-    
-
->>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 .header h1{
     letter-spacing: 5px;
     font-family: 'Montserrat', sans-serif;
@@ -42,16 +25,7 @@
 .container{
     
   flex: 1;
-<<<<<<< HEAD
 
-
-=======
-  
-<<<<<<< HEAD
-=======
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
-
->>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
 }
 
 .card{
@@ -61,19 +35,9 @@
 
 .photo{
     width: 320px;
-<<<<<<< HEAD
     height: auto;
   
 
-=======
-<<<<<<< HEAD
-    height: auto;
-    
-=======
-  height: auto;
-  
->>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 
 .button{
@@ -102,30 +66,20 @@
 }
 
 .line{
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
     
     height: 1px;
     background-color: #ccc; 
     margin: 20px auto;
     width: 80%; 
     max-width: 600px; 
-    
-<<<<<<< HEAD
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.162);
     text-align: center;
     margin-top: 40px;
     color: rgba(0, 0, 0, 0.162);
 
-=======
-=======
-    text-align: center;
-    margin-top: 40px;
-    color: rgba(0, 0, 0, 0.162);
->>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 
 .box{
@@ -206,90 +160,44 @@ a:hover{
 }
 
 .recipe{
-<<<<<<< HEAD
+
     display: flex;
     flex-direction: column;
     margin: 20px;
     gap: 60px;
-}
-=======
-  display: flex;
-  flex-direction: column;
-<<<<<<< HEAD
-  margin: 20px;
-  gap: 60px;
-}
-
-section{
-    border-radius: 20px;
-}
-#section1{
-    background-color: rgba(201, 187, 169, 0.189);
-    padding: 20px;
-=======
-  
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
-
-section{
-    border-radius: 20px;
-}
-#section1{
-    background-color: rgba(201, 187, 169, 0.189);
-    padding: 20px;
-    gap: 60px;
-}
-
-#section1{
-    background-color: rgba(201, 187, 169, 0.189);
     
-<<<<<<< HEAD
+}
 
-=======
->>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
+section{
+    border-radius: 20px;
+    
+}
+
+
+
+#section1{
+    background-color: rgba(201, 187, 169, 0.189);
+    padding: 20px;
 }
     
 #section2{
     background-color: rgba(201, 187, 169, 0.189);
-<<<<<<< HEAD
-
     padding: 20px;
-
-=======
-<<<<<<< HEAD
-    padding: 20px;
-=======
-    
->>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 
 #section3{
     background-color: rgba(201, 187, 169, 0.189);
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
     padding: 20px;
 }
+
 .name{
     text-align: center;
-<<<<<<< HEAD
     font-family: 'Montserrat', sans-serif;
-=======
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
+
 }
 .recipe p{
     color:rgb(227, 109, 133);
    
-<<<<<<< HEAD
-
-=======
-=======
-    
->>>>>>> fa94b536c1de3a2139c09a4fdde2483024e2abbb
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 footer{
     

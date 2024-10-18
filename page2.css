@@ -17,10 +17,7 @@
 .card{
     display: flex;
     margin: 20px 100px;
-<<<<<<< HEAD
    
-=======
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 
 .photo{
@@ -34,20 +31,14 @@
     order: 1;
 }
 
-<<<<<<< HEAD
 .text a{
     font-family: 'Courgette', cursive;
 }
-=======
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 .text h2{
     text-align: center;
     background-color: rgba(243, 168, 69, 0.24);
     color: rgb(92, 78, 51);
-<<<<<<< HEAD
     font-family: sans-serif;
-=======
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 .button{
   display: inline-block;
@@ -56,7 +47,6 @@
   color: rgb(92, 78, 51);
   text-decoration: none;
   background-color: rgba(243, 168, 69, 0.24);
-<<<<<<< HEAD
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); 
   text-align: center;
   width: 40%;
@@ -64,16 +54,6 @@
 }
 
 
-=======
-  
-    
-}
-
-.a{
-    font-size: 20px;
-    font-family: sans-serif;
-}
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 .text{
     
     line-height: 35px;
@@ -94,15 +74,9 @@
 }
 
 .box{
-<<<<<<< HEAD
    
     width: 100%;
   
-=======
-    
-   margin: 0 20px;
-   text-align: center;
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 
 }
 
@@ -124,7 +98,6 @@ h3{
 
 .box-photo {
     display: flex; 
-<<<<<<< HEAD
     flex-direction: column; 
     flex-wrap: wrap;
     justify-content: center;
@@ -145,26 +118,6 @@ h3{
     margin: 10px 0px;
     border-radius: 30px;
     text-decoration: none;
-=======
-    flex-direction: column; /* Ustawienie w kolumnie */
-    align-items: center; /* Wyśrodkowanie w poziomie */
-    margin-top: 20px; 
-    width: 100%;
-    gap: 20px; /* Odstęp między elementami */
-}
-
-.title {
-    height: 600px; /* Ustalona wysokość */
-    width: 460px; /* Ustalona szerokość */
-    display: flex;
-    justify-content: center; /* Wyśrodkowanie tekstu w poziomie */
-    align-items: flex-end; /* Ustawienie tekstu na dole */
-    padding: 50px; /* Odstęp wewnętrzny */
-    background-size: cover;
-    margin: 10px 0; /* Odstęp między elementami */
-    text-decoration: none;
-    border-radius: 30px; /* Zmniejszenie promienia zaokrąglenia */
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 
 
@@ -195,7 +148,6 @@ h3{
 
 a{
     text-decoration: none;
-<<<<<<< HEAD
     width: 100%;
     display: flex;
     justify-content: center;
@@ -204,12 +156,6 @@ a{
 a:hover{
     letter-spacing: 10px;
 
-=======
-}
-
-a:hover{
-    
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 }
 
 .recipe{
@@ -219,7 +165,6 @@ a:hover{
   gap: 60px;
 }
 
-<<<<<<< HEAD
 .list-container{
   display: flex;
   justify-content: space-around;
@@ -230,9 +175,6 @@ a:hover{
 .list-recipe{
     text-align: center;
 }
-=======
-
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
 #section1{
     background-color: rgba(201, 187, 169, 0.189);
     padding: 20px;
@@ -247,27 +189,21 @@ a:hover{
     background-color: rgba(201, 187, 169, 0.189);
     padding: 20px;
 }
+
 .name{
     font-weight: bolder;
     letter-spacing: 8px;
     font-family: 'Courgette', cursive;
     color: rgb(92, 78, 51);
 }
+
 .recipe p{
-<<<<<<< HEAD
     color: rgba(214, 133, 26, 0.726);
 }
+
 footer{
     
     background-color: rgba(243, 168, 69, 0.726);
-=======
-    color:rgb(227, 109, 133);
-    
-}
-footer{
-    width: 100%;
-    background-color: rgba(227, 109, 133, 0.527);
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
     text-align: center;
     color: white;
     padding: 10px;
@@ -277,7 +213,6 @@ footer{
 
 }
 @media only screen and (max-width: 1030px){
-<<<<<<< HEAD
     .header {
         flex-direction: column;
         align-items: center;
@@ -318,14 +253,5 @@ footer{
     img {
         margin: 10px auto;
         width: 100%;
-=======
-    .card{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .box-photo{
-        flex-wrap: wrap;
->>>>>>> e55531d7bb69b3259d28b8070eb7482a27965c7f
     }
 }
